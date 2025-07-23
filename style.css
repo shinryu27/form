@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.left{
+   width: 35vw;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    width: 65vw;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
