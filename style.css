@@ -1,3 +1,27 @@
+@font-face {
+  font-family: my-cool-font;
+  src: url(./fonts/norse/Norsebold.otf);
+}
+
+h1 {
+  font-family: my-cool-font, sans-serif;
+  font-size: 100px;
+  color: white;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -6,18 +30,39 @@
 }
 .left{
    width: 35vw;
+   background-image: url(./images/background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
 }
+
 .right{
     display: flex;
     justify-content: center;
     width: 65vw;
 }
 
-img{
-    height: 100%;
-    width: 100%;
-}
 body {
     margin: 0;
     padding: 0;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%s;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 13em;
+}
+
+.logo{
+    height: 100%;
+    width: auto;
+}
+
+.credits {
+    text-align: center;
+    margin-top: auto;
 }
