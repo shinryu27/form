@@ -87,6 +87,7 @@ body {
     height: 30vh;
     background-color: white;
     padding-left: var(--padding);
+    box-shadow: 2px 1px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 .form-main-div {
@@ -148,6 +149,6 @@ input:focus {
     box-shadow: 0px 0px 1px 2px #888888;
 }
 
-input:invalid {
-    border: 2px solid red;
+input:user-invalid {
+    border: 1px solid red;
 }
